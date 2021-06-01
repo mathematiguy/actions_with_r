@@ -33,4 +33,3 @@ t <- penguins %>%
   aggregate(.~species,.,FUN=mean,na.rm=TRUE) %>%
   kable() %>%
   cat(.,file="mymodel.html")
-
